@@ -8,12 +8,12 @@
 
 .open {
   align-items: center;
-  justify-content: space-evenly;
   background-color: var(--transparent90);
   display: flex;
   flex-direction: column;
-  left: 0;
   height: 40vh;
+  justify-content: space-evenly;
+  left: 0;
   padding-bottom: 8px;
   position: absolute;
   right: 0;

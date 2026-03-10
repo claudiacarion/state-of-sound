@@ -60,13 +60,13 @@ body {
 }
 
 .app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .app.home {

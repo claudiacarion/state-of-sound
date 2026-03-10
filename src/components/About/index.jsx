@@ -8,10 +8,10 @@ const About = () => {
         State of Sound is a project that highlights the artists I keep on repeat and the new sounds I’m discovering.
       </p>
       <p className={styles.description}>
-        This assignment was to build a React Single Page Application with a home page and additional pages.
-        Navigation is handled using React state to conditionally render pages instead of routing. <br/>The project uses
-        functional components, props, reusable components, CSS modules, and responsive styling, with images included on
-        each page.
+        This assignment was to build a React Single Page Application with a home page and additional pages. Navigation
+        is handled using React state to conditionally render pages instead of routing. <br />
+        The project uses functional components, props, reusable components, CSS modules, and responsive styling, with
+        images included on each page.
       </p>
       <div className={styles.contact}>
         <h2 className={styles.contact}>Get in touch</h2>
