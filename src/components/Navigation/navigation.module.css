@@ -27,12 +27,15 @@
   font-size: 2rem;
 }
 
-.navBtn:hover {
+.navBtn:active {
   color: var(--secondary);
-  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
+  .navBtn:hover {
+    color: var(--secondary);
+    cursor: pointer;
+  }
   .navbar {
     display: flex;
     gap: 64px;
