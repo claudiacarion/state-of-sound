@@ -11,7 +11,7 @@ export const artists = [
     genre: "Trap / Hip-Hop / Funk",
     image: "ca7rielypaco.jpg",
     description: "Argentinian duo blending trap, funk, and rock with energetic performances and playful lyrics.",
-    link: "www.youtube.com/@CA7RIELyPacoAmoroso",
+    link: "http://www.youtube.com/@CA7RIELyPacoAmoroso",
   },
   {
     name: "Salvador Sobral",
@@ -56,14 +56,14 @@ export const artists = [
     image: "theoffspring.jpg",
     description:
       "Punk rock band known for high-energy tracks like 'Pretty Fly (For a White Guy)' and 'The Kids Aren't Alright'.",
-    link: "www.youtube.com/@offspring",
+    link: "http://www.youtube.com/@offspring",
   },
   {
     name: "Green Day",
     genre: "Punk Rock",
     image: "greenday.jpg",
     description: "Legendary punk rock band known for albums like 'American Idiot' and 'Dookie'.",
-    link: "www.youtube.com/@GreenDay",
+    link: "http://www.youtube.com/@GreenDay",
   },
   {
     name: "blink-182",
@@ -71,7 +71,7 @@ export const artists = [
     image: "blink182.jpg",
     description:
       "Iconic pop-punk band famous for energetic songs like 'All the Small Things' and 'What's My Age Again?'.",
-    link: "www.youtube.com/@blink182",
+    link: "https://www.youtube.com/@blink182",
   },
 ];
 
