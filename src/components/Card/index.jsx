@@ -3,7 +3,7 @@ import { getImageUrl } from "../../utils/function.js";
 
 const Card = ({ name, image, genre, description, link }) => {
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} animate__animated animate__fadeIn`} style={{ animationDuration: "1.5s", animationDelay: '0.3s' }}>
       <h3 className={styles.name}>{name}</h3>
       <img className={styles.image} src={getImageUrl(image)} />
       <p className={styles.genre}>Genre: {genre}</p>

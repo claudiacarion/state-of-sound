@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Repeat from "./components/Repeat";
 import About from "./components/About";
 import "./global.css";
+import "animate.css"
 import { useState } from "react";
 
 function App() {
