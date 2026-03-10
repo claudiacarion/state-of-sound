@@ -7,7 +7,7 @@ const Navigation = ({ updateFunction, isOpen, menuFunction }) => {
   return (
     <div className={styles.navWrapper}>
       <Hamburger menuFunction={toggleMenu} isOpen={isOpen} />
-      <nav className={`${styles.navbar} ${isOpen ? styles.open : ""}`}>
+      <nav className={`${styles.navbar} ${isOpen ? `${styles.open} animate__animated animate__fadeIn` : ""}`}>
         <span
           className={styles.navBtn}
           onClick={() => {
