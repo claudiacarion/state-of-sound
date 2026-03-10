@@ -1,0 +1,12 @@
+.repeat {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cardWrapper {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,17 @@
+.header {
+  align-items: center;
+  grid-template-columns: 1fr auto 1fr;
+  display: grid;
+  margin-bottom: 4rem;
+  padding: 20px;
+  position: relative;
+  width: 100%
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}

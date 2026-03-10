@@ -1,0 +1,35 @@
+.navWrapper {
+  width: 100%;
+}
+
+.navbar {
+  display: none;
+}
+
+.open {
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--transparent90);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  height: 40vh;
+  padding-bottom: 8px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  width: 100%;
+  z-index: 999;
+}
+
+.navBtn:hover {
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    gap: 3rem;
+  }
+}

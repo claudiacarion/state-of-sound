@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src:
+    url("./assets/fonts/Bebas_Neue/BebasNeue-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Bebas_Neue/BebasNeue-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+  src:
+    url("./assets/fonts/Lato/Lato-Light.woff2") format("woff2"),
+    url("./assets/fonts/Lato/Lato-Light.woff") format("woff");
+}
+
+:root {
+  --primary: #f8f8f8;
+  --secondary: #363636;
+  --transparent50: #00000080;
+  --transparent90: #000000e6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: var(--primary);
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.app.home {
+  background-image: url("./assets/images/background_headphones.jpg");
+}
+
+.app.repeat {
+  background-image: url("./assets/images/background_concert.jpg");
+}
+
+.app.discovery {
+  background-image: url("./assets/images/background_mic.jpg");
+}
+
+.app.about {
+  background-image: url("./assets/images/background_mixer.jpg");
+}
+
+.main {
+  flex-grow: 1;
+  margin: 2rem;
+}
