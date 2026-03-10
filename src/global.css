@@ -50,6 +50,7 @@ body {
 }
 
 body {
+  background-color: var(--secondary);
   color: var(--primary);
   font-family: "Lato", sans-serif;
   margin: 0;
