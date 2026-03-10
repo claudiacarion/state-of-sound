@@ -1,5 +1,5 @@
 import styles from "./header.module.css";
-import logo from "../../assets/images/logo.png";
+import logo from "/images/logo.png";
 import Navigation from "../Navigation";
 import { useState } from "react";
 
