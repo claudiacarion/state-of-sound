@@ -70,19 +70,19 @@ body {
 }
 
 .app.home {
-  background-image: url("./assets/images/background_headphones.jpg");
+  background-image: url("/images/background_headphones.jpg");
 }
 
 .app.repeat {
-  background-image: url("./assets/images/background_concert.jpg");
+  background-image: url("/images/background_concert.jpg");
 }
 
 .app.discovery {
-  background-image: url("./assets/images/background_mic.jpg");
+  background-image: url("/images/background_mic.jpg");
 }
 
 .app.about {
-  background-image: url("./assets/images/background_mixer.jpg");
+  background-image: url("/images/background_mixer.jpg");
 }
 
 .main {
