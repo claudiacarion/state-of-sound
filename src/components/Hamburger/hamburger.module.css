@@ -9,6 +9,11 @@
   z-index: 200;
 }
 
+.x {
+  position: fixed;
+  right: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .hamburger {
     display: none;
