@@ -15,7 +15,7 @@ const Header = ({ updatePage }) => {
           (updatePage(null), setIsOpen(false));
         }}
       />
-      <Navigation updateFunction={updatePage} isOpen={isOpen} menuFunction={setIsOpen} />
+      <Navigation updatePage={updatePage} isOpen={isOpen} menuFunction={setIsOpen} />
     </header>
   );
 };
