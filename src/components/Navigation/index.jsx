@@ -1,7 +1,7 @@
 import styles from "./navigation.module.css";
 import Hamburger from "../Hamburger";
 
-const Navigation = ({ updateFunction, isOpen, menuFunction }) => {
+const Navigation = ({ updatePage, isOpen, menuFunction }) => {
   const toggleMenu = () => menuFunction(currentState => !currentState);
 
   return (
@@ -13,7 +13,7 @@ const Navigation = ({ updateFunction, isOpen, menuFunction }) => {
         <span
           className={styles.navBtn}
           onClick={() => {
-            updateFunction(null);
+            updatePage(null);
             menuFunction(false);
           }}>
           Home
@@ -21,7 +21,7 @@ const Navigation = ({ updateFunction, isOpen, menuFunction }) => {
         <span
           className={styles.navBtn}
           onClick={() => {
-            updateFunction("repeat");
+            updatePage("repeat");
             menuFunction(false);
           }}>
           On Repeat
@@ -29,7 +29,7 @@ const Navigation = ({ updateFunction, isOpen, menuFunction }) => {
         <span
           className={styles.navBtn}
           onClick={() => {
-            updateFunction("discovery");
+            updatePage("discovery");
             menuFunction(false);
           }}>
           Discovery
@@ -37,7 +37,7 @@ const Navigation = ({ updateFunction, isOpen, menuFunction }) => {
         <span
           className={styles.navBtn}
           onClick={() => {
-            (updateFunction("about"), menuFunction(false));
+            (updatePage("about"), menuFunction(false));
           }}>
           About
         </span>
